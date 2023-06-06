@@ -10,7 +10,6 @@ def tagVersion = "v1.0.0"
 git url: 'https://https://github.com/rohith308/cicd.git'
 
 sh "git tag -a ${tagVersion} -m 'Version ${tagVersion}'"
-sh "git push origin ${tagVersion}"
 }
 }
 }
